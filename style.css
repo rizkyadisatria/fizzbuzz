@@ -1,0 +1,35 @@
+* {
+    font-family: 'Rubik', sans-serif;
+}
+.wrapper {
+    width: 50%;
+    margin: auto;
+    padding-bottom: 15px;
+    border-bottom: 3px cadetblue solid;
+}
+.wrapper input {
+    border-radius: 5px;
+    border: 1px cadetblue solid;
+    padding: 5px 5px 5px 5px;
+    margin: 0 5px 0 5px;
+}
+.wrapper input[type="submit"] {
+    color: white;
+    background-color: cadetblue;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+.output {
+    width: 50%;
+    margin: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.notfizzbuzz {
+    color: red;
+}

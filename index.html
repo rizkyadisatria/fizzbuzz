@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>FizzBuzz - Progate</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Get a FizzBuzz Result!</h1>
+        <p>ini adalah program fizz & buzz, jika kamu memasukan angka kelipatan 3 maka akan keluar Fizz! jika memasukan
+            angka kelipatan 5 maka akan keluar Buzz! jika memasukan angka kelipatan 3 & 5 maka akan keluar
+            FizzBuzz! jika memasukan selain angka kelipatan 3 dan 5 maka akan keluar angka sebenarnya, nilai 0 atau
+            kosong akan invalid!</p>
+        <label for="number">Type a number: </label>
+        <input placeholder="input a number" type="text" name="number" id="number">
+        <input class="btn" type="submit" value="Submit">
+    </div>
+    <div class="output">
+        <p class="hidden buzz">Buzz!</p>
+        <p class="hidden fizz">Fizz!</p>
+        <p class="hidden fizzbuzz">FizzBuzz!</p>
+        <p class="hidden notfizzbuzz">input invalid!</p>
+    </div>
+    <script src="/script.js"></script>
+</body>
+
+</html>
